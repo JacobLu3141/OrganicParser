@@ -1,0 +1,53 @@
+This organic parser only applies to grade 12 level IUPAC organic compound names.
+The following list of assumptions and simplifications is not exhaustive.
+
+Functional group priority (suffix-based):
+Carboxylic acids (-oic acid)
+Esters (-oate)
+Amides (-amide)
+Aldehydes (-al)
+Ketones (-one)
+Alcohols (-ol)
+Amines (-amine)
+
+Supported prefixes:
+Halogens: fluoro-, chloro-, bromo-, iodo-
+Alcohol: hydroxy-
+Amine: amino-
+Ether: alkoxy- (methoxy-, ethoxy-, etc.)
+Nitro: nitro-
+Alkyl: methyl-, ethyl-, propyl-, etc.
+Hydrocarbon substituents: enyl-, ynyl-
+
+Amines/Amides: only simple hydrocarbons or hydrogens attached to N atoms.
+
+Ethers: only simple hydrocarbons or hydrogens on -oxy side.
+
+Third column groups (see link below):
+Cyclo hydrocarbon cannot be main chain.
+Only one principal group; all other instances are substituents.
+
+Isopropyls, isobutyls, sec-butyls, tert-butyls: only on N atoms of amines/amides.
+
+Secondary/tertiary: not considered in alcohols, alkyl halides, or nitro groups.
+
+Carbonyls: aldehydes (-al) and ketones (-one) as suffix; do not use oxo-.
+
+Hydrocarbon chains: 
+Assumed to be the most simplified compound.
+Maximum length of 10 carbons.
+
+Aromatics: simple benzene derivatives; no fused rings.
+
+Simplifications: 
+Ignore stereochemistry, isotopes, uncommon functional groups.
+Only basic cis- and trans- isomers; no E/Z or R/S naming.
+
+Nomenclature: 
+Locants of alcohol, amine, and ketone groups must be right before the suffix.
+
+Potential hydrocarbon naming errors (easily fixable by hand):
+Longest chain not considered for main chain.
+Duplicated substituent names (e.g. 1-methyl-2-methyl- instead of 1,2-dimethyl-); only for ketones.
+
+See https://tinyurl.com/2j6b4bfp (only bottom two rows, no thiol) for stuctural rules.
